@@ -22,7 +22,6 @@ export default function Footer({ isDarkMode, currentTheme }: FooterProps) {
     { icon: Mail, link: 'mailto:ghulevidya0123@gmail.com', label: 'Email', color: 'hover:text-red-400' },
     { icon: Github, link: 'https://github.com/ghulevidya', label: 'GitHub', color: 'hover:text-gray-400' },
     { icon: Linkedin, link: 'https://linkedin.com/in/vidya-ghule2002', label: 'LinkedIn', color: 'hover:text-blue-400' },
-    { icon: Phone, link: 'tel:9325619648', label: 'Phone', color: 'hover:text-green-400' }
   ];
 
   const quickLinks = [
