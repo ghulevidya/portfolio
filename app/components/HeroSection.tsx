@@ -77,7 +77,6 @@ export default function HeroSection({ isDarkMode, isVisible }: HeroSectionProps)
           <div className="flex justify-center gap-4 mb-8">
             {[
               { icon: Mail, link: 'mailto:ghulevidya0123@gmail.com', label: 'Email', color: 'from-red-400 to-pink-400' },
-              { icon: Phone, link: 'tel:9325619648', label: 'Phone', color: 'from-green-400 to-emerald-400' },
               { icon: Github, link: 'https://github.com/ghulevidya', label: 'GitHub', color: 'from-gray-400 to-gray-600' },
               { icon: Linkedin, link: 'https://linkedin.com/in/vidya-ghule2002', label: 'LinkedIn', color: 'from-blue-400 to-cyan-400' }
             ].map(({ icon: Icon, link, label, color }, idx) => (
