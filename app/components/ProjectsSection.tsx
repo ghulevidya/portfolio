@@ -120,7 +120,7 @@ export default function ProjectsSection({ isDarkMode, isVisible, currentTheme }:
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex items-start gap-3 flex-1">
                     <div className={`mt-1 p-2 rounded-lg bg-gradient-to-br ${project.color} bg-opacity-20`}>
-                      <Code2 className="text-purple-400" size={20} />
+                      <Code2 className="text-white" size={20} />
                     </div>
                     <div className="flex-1">
                       <h3 className="text-xl md:text-2xl font-bold text-purple-400 group-hover:text-purple-300 transition-colors mb-1">

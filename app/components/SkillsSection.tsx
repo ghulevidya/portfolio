@@ -103,7 +103,7 @@ export default function SkillsSection({ isDarkMode, isVisible, currentTheme }: S
                 {/* Header */}
                 <div className="flex items-center gap-3 mb-4">
                   <div className={`p-3 rounded-xl bg-gradient-to-br ${color} bg-opacity-20 group-hover:scale-110 transition-transform duration-300`}>
-                    <Icon className="text-purple-400" size={24} />
+                    <Icon className="text-white" size={24} />
                   </div>
                   <h3 className="text-lg font-bold text-purple-400 group-hover:text-purple-300 transition-colors">
                     {category}

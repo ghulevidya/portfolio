@@ -58,7 +58,7 @@ export default function AchievementsSection({ isDarkMode, currentTheme, isVisibl
   ];
 
   return (
-    <section className={` px-4 sm:px-6 lg:px-8`}>
+    <section id="achievements" className={`py-2 px-4 sm:px-6 lg:px-8`}>
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
@@ -69,7 +69,7 @@ export default function AchievementsSection({ isDarkMode, currentTheme, isVisibl
             </div>
           </div>
           <h2 className={`text-4xl md:text-5xl font-bold mb-4 transition-all duration-700 ${
-            isVisible.about ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
+            isVisible.achievements ? 'opacity-100 scale-100' : 'opacity-0 scale-90'
           }`}>
             Achievements & Certifications
           </h2>
@@ -88,7 +88,7 @@ export default function AchievementsSection({ isDarkMode, currentTheme, isVisibl
             <div className="relative z-10">
               <div className="flex items-center gap-3 mb-6">
                 <div className="p-3 rounded-xl bg-gradient-to-br from-yellow-500 to-orange-500 bg-opacity-20">
-                  <Trophy className="text-yellow-500" size={28} />
+                  <Trophy className="text-white" size={28} />
                 </div>
                 <h3 className="text-2xl font-bold text-yellow-500">Achievements</h3>
               </div>
@@ -105,7 +105,7 @@ export default function AchievementsSection({ isDarkMode, currentTheme, isVisibl
                     >
                       <div className="flex items-start gap-3">
                         <div className={`mt-1 p-2 rounded-lg bg-gradient-to-br ${achievement.color} bg-opacity-20 group-hover/item:scale-110 transition-transform`}>
-                          <Icon className="text-yellow-500" size={20} />
+                          <Icon className="text-white" size={20} />
                         </div>
                         <div className="flex-1">
                           <h4 className={`font-semibold mb-1 ${isDarkMode ? 'text-gray-200' : 'text-gray-800'}`}>
@@ -135,7 +135,7 @@ export default function AchievementsSection({ isDarkMode, currentTheme, isVisibl
             <div className="relative z-10">
               <div className="flex items-center gap-3 mb-6">
                 <div className="p-3 rounded-xl bg-gradient-to-br from-green-500 to-emerald-500 bg-opacity-20">
-                  <FileCheck className="text-green-500" size={28} />
+                  <FileCheck className="text-white" size={28} />
                 </div>
                 <h3 className="text-2xl font-bold text-green-500">Certifications</h3>
               </div>
@@ -152,7 +152,7 @@ export default function AchievementsSection({ isDarkMode, currentTheme, isVisibl
                     >
                       <div className="flex items-start gap-3">
                         <div className={`mt-1 p-2 rounded-lg bg-gradient-to-br ${cert.color} bg-opacity-20 group-hover/item:scale-110 transition-transform`}>
-                          <Icon className="text-green-500" size={20} />
+                          <Icon className="text-white" size={20} />
                         </div>
                         <div className="flex-1">
                           <h4 className={`font-semibold mb-1 ${isDarkMode ? 'text-gray-200' : 'text-gray-800'}`}>
@@ -177,23 +177,7 @@ export default function AchievementsSection({ isDarkMode, currentTheme, isVisibl
           </div>
         </div>
 
-        {/* Summary Stats */}
-        <div className="mt-12 grid grid-cols-2 gap-4">
-          <div className={`${currentTheme.card} p-6 rounded-xl border ${currentTheme.border} text-center hover:scale-105 transition-all duration-300`}>
-            <div className="text-4xl mb-2">🏆</div>
-            <div className="text-3xl font-bold text-yellow-500 mb-1">{achievements.length}</div>
-            <div className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-              Achievements
-            </div>
-          </div>
-          <div className={`${currentTheme.card} p-6 rounded-xl border ${currentTheme.border} text-center hover:scale-105 transition-all duration-300`}>
-            <div className="text-4xl mb-2">📜</div>
-            <div className="text-3xl font-bold text-green-500 mb-1">{certifications.length}</div>
-            <div className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-              Certifications
-            </div>
-          </div>
-        </div>
+      
       </div>
     </section>
   );
