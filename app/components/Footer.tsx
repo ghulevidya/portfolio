@@ -35,7 +35,7 @@ export default function Footer({ isDarkMode, currentTheme }: FooterProps) {
   ];
 
   return (
-    <footer className={`py-12 px-4 sm:px-6 lg:px-8 ${isDarkMode ? 'bg-slate-900/95' : 'bg-white/90'} border-t ${currentTheme.border} backdrop-blur-sm`}>
+    <footer className={`py-8 px-4 sm:px-6 lg:px-8 ${isDarkMode ? 'bg-slate-900/95' : 'bg-white/90'} border-t ${currentTheme.border} backdrop-blur-sm`}>
       <div className="max-w-6xl mx-auto">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">

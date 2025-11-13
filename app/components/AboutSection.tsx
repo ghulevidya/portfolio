@@ -47,7 +47,7 @@ export default function AboutSection({ isDarkMode, isVisible, currentTheme }: Ab
   ];
 
   return (
-    <section id="about" className={`py-20 px-4 sm:px-6 lg:px-8 ${isDarkMode ? 'bg-slate-800/20' : 'bg-white/30'}`}>
+    <section id="about" className={`py-2 px-4 sm:px-6 lg:px-8 ${isDarkMode ? 'bg-slate-800/20' : 'bg-white/30'}`}>
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">

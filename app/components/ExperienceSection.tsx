@@ -26,7 +26,7 @@ export default function ExperienceSection({ isDarkMode, isVisible, currentTheme 
   ];
 
   return (
-    <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8">
+    <section id="experience" className="py-2 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">

@@ -65,7 +65,7 @@ export default function SkillsSection({ isDarkMode, isVisible, currentTheme }: S
   ];
 
   return (
-    <section id="skills" className={`py-20 px-4 sm:px-6 lg:px-8 ${isDarkMode ? 'bg-slate-800/30' : 'bg-white/40'}`}>
+    <section id="skills" className={`py-2 px-4 sm:px-6 lg:px-8 ${isDarkMode ? 'bg-slate-800/30' : 'bg-white/40'}`}>
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
