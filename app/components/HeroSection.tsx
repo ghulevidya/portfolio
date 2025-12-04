@@ -24,7 +24,7 @@ export default function HeroSection({ isDarkMode, isVisible }: HeroSectionProps)
             <div className="absolute inset-0 bg-gradient-to-br from-purple-400 via-pink-400 to-purple-600 rounded-full animate-spin-slow opacity-75 blur-md group-hover:blur-lg transition-all duration-500" />
             <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white/20 shadow-2xl group-hover:scale-105 transition-transform duration-500">
               <Image
-                src="/VidyaPhoto2.jpg"
+                src="/Profile.jpg"
                 alt="Vidya Ghule"
                 width={160}
                 height={160}
